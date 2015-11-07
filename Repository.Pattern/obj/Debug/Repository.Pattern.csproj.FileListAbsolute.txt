@@ -1,0 +1,36 @@
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\lelong37\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\v3.3.4\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\v3.3.4\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\v3.3.4\Source\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\v3.3.4\Source\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\v3.3.4\Source\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\v3.3.4\Source\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\Atiq\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\Atiq\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\Atiq\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\Atiq\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Atiq\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\Atiq\Documents\Visual Studio 2013\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\ApplicationCore\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\ApplicationCore\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\SeliseCricCard\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\SeliseCricCard\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\SeliseCricCard\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\SeliseCricCard\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\SeliseCricCard\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\Atiq\Documents\Visual Studio 2015\Projects\SeliseCricCard\Repository.Pattern\obj\Debug\Repository.Pattern.pdb

@@ -1,0 +1,40 @@
+﻿<form>
+    <div class="panel-body">
+        <h4 class="text-center" data-lang="CREATE_MATCH">{{'CREATEMATCH'|translate}}</h4>
+        <form onsubmit=" return false ">
+            <div class="form-group row">
+                <div class="col-xs-10 col-lg-11">
+                    <label class="control-label sr-only" for="FirstTeamName" data-lang="TEAM_1_NAME">{{'FIRSTTEAMNAME'|translate}}</label>
+                    <input class="form-control input-lg" ng-model="Match.FirstTeamName" id="FirstTeamName" type="text" required placeholder="{{'FIRSTTEAMNAME'|translate}}">
+                </div>
+                <div class="col-xs-2 col-lg-1 text-center">
+                    <label class="radio ball">
+                        <input type="radio" name="TeamBowl" ng-model="IsTeam1Bowl" ng-click="CheckTeam1($event)"/>
+                        <i title="Bowl First"></i>
+                    </label>
+                </div>
+            </div>
+            <h4 class="text-muted text-center" data-lang="VS">VS</h4>
+            <div class="form-group row">
+                <div class="col-xs-10 col-lg-11">
+                    <label class="control-label sr-only" for="SecondTeamName" data-lang="TEAM_2_NAME">{{'SECONDTEAMNAME'|translate}}</label>
+                    <input class="form-control input-lg" id="SecondTeamName" ng-model="Match.SecondTeamName" type="text" required placeholder="{{'SECONDTEAMNAME'|translate}}">
+                </div>
+                <div class="col-xs-2 col-lg-1">
+                    <label class="radio ball">
+                        <input type="radio" name="TeamBowl" ng-model="IsTeam2Bowl" ng-click="CheckTeam2($event)" checked/>
+                        <i title="Bowl First"></i>
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" data-lang="PLAY_NOW" ng-click="SaveGame()">{{'PLAYNOW'|translate}}</button>
+        </form>
+    </div>
+</form>
+
+<div class="panel-footer clearfix">
+    <div class="btn-group pull-right" id="langChange">
+        <button ng-click="changeLang('en')" class="btn btn-default active" data-lang="ENGLISH">{{'ENGLISH'|translate}}</button>
+        <button ng-click="changeLang('de')" class="btn btn-default" data-lang="GERMAN">{{'GERMAN'|translate}}</button>
+    </div>
+</div>

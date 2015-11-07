@@ -1,0 +1,21 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading pos-rel">
+        <a  title="BOWL" class="btn btn-primary btn-lg" ui-sref="home()"><i class="i-ball"></i>{{'CREATEMATCH'|translate}}</a>
+    </div>
+    <div class="panel-body" hello>
+        <div class="score-overs" ng-repeat="match in Matches">
+            <div class="strike"><span><a ui-sref="start({matchId:match.MatchID})">{{match.Name}}</a></span></div>
+        </div>
+        <!--<overview OverWithDetails="Overs"></overview>-->
+        <div ng-show="Matches.length==0">
+            <div class="text-uppercase strike"><span data-lang="PLAY_STARTED">{{'NO_MATCH_AVAILABLE'|translate}}</span></div>
+        </div>
+        <!--<button class="gap-top-m30 btn btn-block" ng-show="Matches.length>=12" ng-click="LoadMore()">Load More</button>-->
+    </div>
+    <div class="panel-footer clearfix">
+        <div class="btn-group pull-right" id="langChange">
+            <button ng-click="changeLang('en')" class="btn btn-default active" data-lang="ENGLISH">{{'ENGLISH'|translate}}</button>
+            <button ng-click="changeLang('de')" class="btn btn-default" data-lang="GERMAN">{{'GERMAN'|translate}}</button>
+        </div>
+    </div>
+</div>

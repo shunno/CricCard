@@ -1,0 +1,33 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading pos-rel">
+        <button type="button" title="BOWL" class="btn-bowl btn btn-danger btn-lg btn-fab" ng-click="Bowl()"><i class="i-ball"></i></button>
+        <h3 class="gap-m0 text-white">
+            <span class="text-uppercase">{{Match.FirstTeamName}}</span> - {{Match.TotalRun}}
+            <small class="d-block text-white">
+                <span data-lang="VS">VS</span>
+                <span class="text-uppercase">{{Match.SecondTeamName}}</span>
+            </small>
+        </h3>
+    </div>
+    <div class="panel-body" hello>
+        <div class="score-overs" ng-repeat="over in Overs">
+            <div class="strike"><span>Over {{over.OverNumber}} ({{over.Details.length}} Ball)</span></div>
+            <ul class="list-unstyled score-list">
+                <li ng-repeat="item in over.Details">
+                    <a ui-sref="review({matchId:item.MatchID,teamId:item.TeamID,overnumber:item.OverNumber,ballnumber:item.BallNumber})" class="clearfix"><span class="score-b">{{over.OverNumber}}.{{item.BallNumber}}</span><span class="score-c">{{item.Description}}</span><span class="score-r">{{item.RunTaken}} Run</span></a>
+                </li>
+            </ul>
+        </div>
+        <!--<overview OverWithDetails="Overs"></overview>-->
+        <div ng-show="OverDetails.length==0">
+            <div class="text-uppercase strike"><span>{{'PLAYNOW'|translate}}</span></div>
+        </div>
+        <button class="gap-top-m30 btn btn-block" ng-show="OverDetails.length>=12" ng-click="LoadMore()">{{'LOAD_MORE'|translate}}</button>
+    </div>
+    <div class="panel-footer clearfix">
+        <div class="btn-group pull-right" id="langChange">
+            <button ng-click="changeLang('en')" class="btn btn-default active">{{'ENGLISH'|translate}}</button>
+            <button ng-click="changeLang('de')" class="btn btn-default">{{'GERMAN'|translate}}</button>
+        </div>
+    </div>
+</div>

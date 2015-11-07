@@ -1,0 +1,18 @@
+﻿<div class="panel panel-danger">
+    <div class="panel-heading pos-rel">
+        
+        <button type="button" class="gap-top-m5 btn btn-primary  pull-right" ui-sref="matches()">{{'BACK_GAME'|translate}}t</button>
+
+    </div>
+    <div class="panel-body">
+        <div class="alert alert-warning">
+            <p>{{'MESSAGE'|translate}} <a href="javascript:void(0)" ui-sref="matches()">{{'BACK_GAME'|translate}}</a>.</p>
+        </div>
+    </div>
+    <div class="panel-footer clearfix">
+        <div class="btn-group pull-right" id="langChange">
+            <button ng-click="changeLang('en')" class="btn btn-default active">{{'ENGLISH'|translate}}</button>
+            <button ng-click="changeLang('de')" class="btn btn-default">{{'GERMAN'|translate}}</button>
+        </div>
+    </div>
+</div>

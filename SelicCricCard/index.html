@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Selise CricCard</title>
+	<meta name="description" content="SELISE CRICCARD">
+	<meta name="viewport" content="width=device-width">
+	<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+</head>
+<body ng-app="MyApp">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="panel panel-default gap-top-m30">
+					<div class="panel-heading text-center">
+						<h2 class="gap-m0">Selise CricCard</h2>
+					</div>
+                    <!-- This is Start -->
+                    <div ui-view> </div>
+                    <!-- This is End -->
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- 3rd party libraries -->
+     <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
+    <script src="Scripts/angular-signalr-hub.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/underscore.min.js"></script>
+    <script src="Scripts/angular-recursion.js"></script>
+    <script src="Scripts/angular-translate.min.js"></script>
+    <!-- Load app main script -->
+    <script src="app/app.js"></script>
+    <!-- Load controllers -->
+    <script src="app/controller/homeCtrl.js"></script>
+    <script src="app/controller/startCtrl.js"></script>
+    <script src="app/controller/reviewCtrl.js"></script>
+    <script src="app/controller/matchesCtrl.js"></script>
+    <script src="app/controller/exceptionCtrl.js"></script>
+    <script src="app/service/matchService.js"></script>
+    <script src="app/service/overService.js"></script>
+    <script src="app/directive/overdetailsdirective.js"></script>
+</body>
+</html>
