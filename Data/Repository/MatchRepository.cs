@@ -18,7 +18,6 @@ namespace Data.Repository
             var matches = repository.Queryable();
             var overDetailsrepo = repository.GetRepositoryAsync<OverDetail>();
             var teams = repository.GetRepository<Team>().Queryable();
-
             var singlematch = (from m in matches join team1 in teams
                               on m.Team1ID equals team1.TeamID
                                join team2 in teams on m.Team2ID equals team2.TeamID
@@ -39,6 +38,7 @@ namespace Data.Repository
             {
                 singlematch.TotalRun = overDetailsrepo.GetTotalByMatchIDAndTeamID(singlematch.MatchID,
                 (singlematch.IsTeam1Bowl ? singlematch.Team1ID : singlematch.Team2ID));
+                
             }
             return singlematch;
         }
