@@ -31,7 +31,7 @@ namespace WebMvc
             container.RegisterType(typeof(IRepositoryAsync<>), typeof(Repository<>));
             container.RegisterType<IMatchService, MatchService>();
             container.RegisterType<IOverDetailService, OverDetailService>();
-            GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
+            //GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
             GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
         }
     }

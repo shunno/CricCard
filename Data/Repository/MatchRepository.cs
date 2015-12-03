@@ -92,11 +92,11 @@ namespace Data.Repository
             var teams = repository.GetRepository<Team>().Queryable();
 
             var singlematch = (from m in matches
-                               join team1 in teams
-            on m.Team1ID equals team1.TeamID
+                               join team1 in teams on m.Team1ID equals team1.TeamID
                                join team2 in teams on m.Team2ID equals team2.TeamID
                                where m.MatchID == MatchId
-                               select new { m, team1, team2 }).AsEnumerable()
+                               select new { m, team1, team2 })
+                               .AsEnumerable()
                               .Select(item => new Match
                               {
                                   MatchID = item.m.MatchID,
